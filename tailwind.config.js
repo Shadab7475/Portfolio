@@ -1,0 +1,17 @@
+export default {
+  theme: {
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+
+      // 👇 custom max-width screen
+      "sm-mx": { max: "400px" },
+    },
+  },
+};
+
+
+

@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+body{
+  background-color:#0a192f ;
+}
+@theme{
+  
+  --color-textColor :#8892b0;
+  --color-primaryColor : #64FFDA;
+  --color-bgColor :#0a192f; 
+  --breakpoint-mobile:350px;
+  --breakpoint-tablat:476px;
+  --breakpoint-laptop:900px;
+
+}
+@theme inline {
+  --animate-background-position-spin: background-position-spin 3000ms infinite
+    alternate;
+
+  @keyframes background-position-spin {
+    0% {
+      background-position: top center;
+    }
+    100% {
+      background-position: bottom center;
+    }
+  }
+}
+
+
+
+ html{
+    --primary-color:"#64FFDA";
+    scroll-behavior: smooth;
+ }
+ ::-webkit-scrollbar-track
+ {
+   border-radius: 10px;
+   background-color: #112240;
+ }
+ 
+::-webkit-scrollbar
+ {
+   width: 4px;
+   background-color: #112240;
+ }
+ 
+ ::-webkit-scrollbar-thumb
+ {
+   border-radius: 10px;
+   background-color: #64FFDA;
+ }
+
+.vanta-canvas {
+  will-change: transform;
+}
+
+
+
+
+
+
+.dm-mono-light {
+  font-family: "DM Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.dm-mono-regular {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-mono-medium {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.dm-mono-light-italic {
+  font-family: "DM Mono", monospace;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.dm-mono-regular-italic {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.dm-mono-medium-italic {
+  font-family: "DM Mono", monospace;
+  font-weight: 500;
+  font-style: italic;
+}
+
+
+
+
+/* sm	40rem (640px)	@media (width >= 40rem) { ... }
+md	48rem (768px)	@media (width >= 48rem) { ... }
+lg	64rem (1024px)	@media (width >= 64rem) { ... }
+xl	80rem (1280px)	@media (width >= 80rem) { ... }
+2xl	96rem (1536px)	@media (width >= 96rem) { ... } */
